@@ -1,0 +1,50 @@
+body{
+    margin:1em 10%;
+    font-family: 'Roboto', sans-serif;
+}
+.nav{
+    color:rgb(12, 102, 12);
+    font-size:2.7em;
+    font-weight:700;
+}
+.messages{
+    margin:10px 0;
+    padding-top:0px;
+    padding-bottom:25px;
+    padding-left:20px;
+    padding-right:20px;
+    font-size:1.4em;
+    box-sizing: border-box;
+    border-radius:4px;
+    background-color: rgb(236, 236, 236);
+}
+a{
+    position:fixed;
+    text-align: right;
+    bottom:15px;
+    right:10%;
+    font-size:4.5em;
+border-radius: 50%;
+color: rgb(12, 102, 12);
+}
+.date{
+    color: rgb(12, 102, 12);
+    font-size:1.4em;
+    margin-top:.4em;
+    font-weight: 700;
+}
+.heading{
+    font-size:2em;
+    font-weight: 900;
+    margin:0;
+    margin-top:1.8em;
+    margin-bottom:.6em;
+}
+@media only screen and (max-width:700px){
+a{
+    font-size:3.5em;
+}
+.nav{
+    font-size:2.4em;
+}
+}
